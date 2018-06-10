@@ -1,1 +1,5 @@
 # Brand-Analysis-on-Luxury-Sedans
+1.	Crawl Edmunds.com discussion forums to fetch about 5,000 posts about cars using the Python crawler crawler.py script. 
+2.	Once you fetch the data, find 10 most popular (i.e., most frequently mentioned) brands. To do this, use the python script wordfrequency.py, which creates an output file with words and their frequencies. Replace models with brands with find_and_replace.py so that you now only deal with brands and not models.
+3. For the 10 most popularly mentioned brands calculate their lift scores using he lift.py file. Plot the MDS map to show the respective clusters formed by the brand based on the lift scores.
+4) Similarly choose relevant attributes from the posts and then calculate the lift scores for each brand wth the attributes to see the associlation of each brand with certain attributes for example bmw with luxury, audi with styl etc.
